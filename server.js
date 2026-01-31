@@ -11,6 +11,8 @@ app.use('/users',require('./routes/user.routes'))
 
 app.use('/vehicles',require('./routes/vehicle.routes'))
 
+app.use('/trips',require('./routes/trip.routes'))
+
 app.use((req,res)=>{
     res.status(404).send("This request is not found")
 })
