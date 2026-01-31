@@ -1,0 +1,26 @@
+{
+  "name": "module4_mock_evaluation_2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sani816/Module4_Mock_evaluation_2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/sani816/Module4_Mock_evaluation_2/issues"
+  },
+  "homepage": "https://github.com/sani816/Module4_Mock_evaluation_2#readme",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.91.1",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1"
+  }
+}
